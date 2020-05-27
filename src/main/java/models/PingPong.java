@@ -9,7 +9,7 @@ public class PingPong {
         ArrayList<Object> result = new ArrayList<Object>();
         for(int i = 1; i<= countUpTo; i++) {
             if (i%3 == 0 && i%5 == 0) {
-                result.add("pingpong");
+                result.add("PingPong");
             } else if(i % 3 == 0 ) {
                 result.add("ping");
             } else if(i % 5 == 0 ) {
@@ -18,7 +18,7 @@ public class PingPong {
                 result.add(i);
             }
         }
-        
+
         return result;
     }
 }
