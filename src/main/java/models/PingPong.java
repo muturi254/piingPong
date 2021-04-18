@@ -7,7 +7,7 @@ public class PingPong {
 
     public ArrayList<Object> runPingPong(int countUpTo) {
         ArrayList<Object> result = new ArrayList<Object>();
-        System.out.println("Hello");
+        System.out.println("Hello world");
 
         for(int i = 1; i<= countUpTo; i++) {
             if (i%3 == 0 && i%5 == 0) {
