@@ -1,7 +1,12 @@
 group 'ping-pong'
+
+plugins {
+    id 'java'
+}
+
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
